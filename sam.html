@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title> HTML Table</title>
+  <link rel="stylesheet" href="style.css">
+ 
+</head>
+<body>
+
+  <h2>HTML Tags Chart  </h2>
+  <p>To use any of the following HTML tags, simply select the HTML code you'd like and copy and paste <br> it into your web page.</p>
+
+  <table id="tagTable">
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>Description</th>
+        <th>Example Code</th>
+        <th>Browser View</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+
+  <script>
+  
+    fetch('html_tags_from_pdf.json')
+      .then(response => {
+        if (!response.ok) throw new Error('JSON file not found');
+        return response.json();
+      })
+      .then(data => {
+        const tableBody = document.querySelector('#tagTable tbody');
+
+        data.htmlTags.forEach(item => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>&lt;${item.tag}&gt;</td>
+            <td>${item.description}</td>
+            <td><code>${item.exampleCode}</code></td>
+            <td>${item.browserView}</td>
+          `;+
+          tableBody.appendChild(row);
+        });
+      })
+      .catch(error => {
+        console.error('Error loading JSON:', error);
+      });
+  </script>
+
+</body>
+</html>

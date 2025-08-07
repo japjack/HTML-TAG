@@ -1,0 +1,272 @@
+{
+    "htmlTags": [
+        {
+            
+            "tag": "!--",
+            "description": "comment",
+            "exampleCode": "&lt;!-- This can be viewed in the HTML part of a document--&gt;",
+           "browserView": "<a href=\"tags/document.html\" target=\"_blank\">Visit Our Site</a>"
+
+  
+        },
+        
+      {
+            "tag": "a",
+            "description": "anchor",
+            "exampleCode": "&lt;a href=\"http://www.domain.com/\">Visit Our Site&lt;/a>",
+            "browserView": "<a href=\"http://www.domain.com/\" target=\"_blank\">Visit Our Site</a>"
+
+    },
+        {
+            "tag": "b",
+            "description": "bold",
+            "exampleCode": "&lt;b>Example",
+          "browserView": "<a href=\"tags/bold.html\" target=\"_blank\">Visit Our Site</a>"
+
+        }, 
+{
+            "tag": "big",
+            "description": "big ( text)",
+            "exampleCode": "< big> Example &lt;big>",
+            "browserView": "<a href=\"tags/big.html\" target=\"_blank\">Visit Our Site</a>"
+
+        },
+        {
+            "tag": "center",
+            "description": "center",
+            "exampleCode": "this will center your contents",
+           "browserView": "<a href=\"tags/center.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+             "tag": "br",
+            "description": "link break ",
+            "exampleCode": "The content of your pages &lt;br> the contents of your web page",
+           "browserView": "<a href=\"tags/break.html\" target=\"_blank\">Visit Our Site</a>"
+
+        },
+        {
+            
+                "tag": "dd",
+                "description": "Definition description",
+                "exampleCode": "&lt;dl>\n  &lt;dt>Definition Term&lt;/dt>\n  &lt;dd>Definition of the term\n  &lt;dt>Definition Term</dt>\n  &lt;dd>Definition of the term</dd>\n&lt;/dl>",
+                "browserView": "<a href=\"tags/definition.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            
+            "tag": "dl",
+            "description": "Definition list",
+            "exampleCode": "&lt;dl&gt;\n  &lt;dt&gt;Definition Term&lt;/dt&gt;\n  &lt;dd&gt;Definition of the term&lt;/dd&gt;\n  &lt;dt&gt;Definition Term&lt;/dt&gt;\n  &lt;dd&gt;Definition of the term&lt;/dd&gt;\n&lt;/dl&gt;",
+           "browserView": "<a href=\"tags/list.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "dt",
+            "description": "Definition term",
+            "exampleCode": "&lt;dl&gt;\n  &lt;dt&gt;Definition Term&lt;/dt&gt;\n  &lt;dd&gt;Definition of the term&lt;/dd&gt;\n  &lt;dt&gt;Definition Term&lt;/dt&gt;\n  &lt;dd&gt;Definition of the term&lt;/dd&gt;\n&lt;/dl&gt;",
+            "browserView": "<a href=\"tags/term.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "em",
+            "description": "Emphasis (italic text)",
+            "exampleCode": "This is an &lt;em&gt;Example&lt;/em&gt; of using the emphasis tag",
+            "browserView": "<a href=\"tags/emphasis.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+       
+      
+        {
+                "tag": "Text",
+                "description": "Explanation of the embed behavior",
+                "exampleCode": "Music will begin playing when your page is loaded and will only play one time. A control panel will be displayed to enable your visitors to stop the music.",
+               "browserView": "<a href=\"tags/text.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        
+        {
+            "tag": "font",
+            "description": "font",
+            "exampleCode": "< font\n \nface=\"Times New Roman\" \nsize =\"4\">Example",
+           "browserView": "<a href=\"tags/font.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+       
+        {
+            "tag": "form",
+            "description": "HTML form with mailto action",
+            "exampleCode": "&lt;form action=\"mailto:you@yourdomain.com\">\n  Name: &lt;input name=\"Name\" value=\"\" size=\"10\"<&gt;br>\n  Email: &lt;input name=\"Email\" value=\"\" size=\"10\"&gt;<br&gt;\n  <center>&gt;input type=\"submit\"></center&gt;\n</form&gt;",
+            "browserView": "<a href=\"tags/form.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "h1&gt;, &lt;h2&gt;, &lt;h3&gt;, &lt;h4&gt;, &lt;h5&gt;, &lt;h6",
+            "description": "header ",
+            "exampleCode": "&lt;h1&gt; welcome, this is a header 1&lt;/h1&gt;&lt;h2&gt; welcome, this is a header 2&lt;/h2&gt;&lt;h3&gt; welcome, this is a header 3&lt;/h3&gt;",
+            "browserView": "<a href=\"tags/header.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        
+        
+        {
+            "tag": "i",
+            "description": "italic",
+            "exampleCode": "&lt;i&gt;Example&lt;/i&gt;",
+            "browserView": "<a href=\"tags/italic.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "img",
+            "description": "image",
+            "exampleCode": "&lt;img\n \nsrc=\"simly.gif\"width=\"41\"\nheight=\"41\"border=\"0\"alt=\"text describing\nthe image\"/>",
+            "browserView": "<a href=\"tags/image.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+     
+        
+        {
+            "tag": "option",
+            "description": "list box option",
+            "exampleCode": "&lt;option&gt;option1&lt;/option&gt;\n&lt;option&gt;option2&lt;/option&gt;",
+            "browserView": "<a href=\"tags/option.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "small",
+            "description": "small(text)",
+            "exampleCode": "&lt;small&gt;Example&lt;/small&gt;",
+            "browserView": "<a href=\"tags/small.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "hr",
+            "description": "horizontal rule",
+            "exampleCode": "&lt;hr&gt;",
+            "browserView": "<a href=\"tags/hr.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "html",
+            "description": "hypertext markup language",
+            "exampleCode": "&lt;html&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"UTF-8\"&gt;\n    &lt;title&gt;HTML Example&lt;/title&gt;\n  &lt;/head&gt;\n  &lt;body&gt;\n    &lt;p&gt;This is a paragraph in HTML.&lt;/p&gt;\n  &lt;/body&gt;\n&lt;/html&gt;",
+            "browserView": "<a href=\"tags/sam.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "head",
+            "description": "heading of HTML document",
+            "exampleCode": "&lt;head&gt;Contains elements describing the document&lt;/head&gt;",
+            "browserView": "<a href=\"tags/head.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "li",
+            "description": "list item",
+            "exampleCode": "&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;",
+            "browserView": "<a href=\"tags/listitem.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "link",
+            "description": "link",
+            "exampleCode": "&lt;link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\"/&gt;",
+            "browserView": "it link the CSS file to the HTML document"
+        },
+        {
+            "tag": "marquee",
+            "description": "scrolling text",
+            "exampleCode": "&lt;marquee&gt;Scrolling Text&lt;/marquee&gt;",
+            "browserView": "<a href=\"tags/marquee.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "menu",
+            "description": "menu",
+            "exampleCode": "&lt;menu&gt;\n&lt;li type=\"disc\"&gt;List item 1&lt;/li&gt;\n&lt;li type=\"circle\"&gt;List item 2&lt;/li&gt;\n&lt;li type=\"square\"&gt;List item 3&lt;/li&gt;\n&lt;/menu&gt;",
+            "browserView": "<a href=\"tags/menu.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "meta",
+            "description": "meta",
+            "exampleCode": "&lt;meta\n \nHTTP\n-\nEQ UIV=\"Refresh\"\nCONTENT=\"4;U RL=http ://www. yourd oma in. c\nom/\"&gt;",
+            "browserView": "Nothing wills how (Tip )"
+        },
+        {
+            "tag": "meta",
+            "description": "meta",
+            "exampleCode": "&lt;meta\n \nhttp\n-\neq uiv=\"Pragma \"content=\"no\n-\ncache \"&gt;",
+            "browserView": "Nothing wills how   (Tip )"
+        },
+       
+        {
+            "tag": "ol",
+            "description": "ordered list",
+            "exampleCode": "&lt;ol&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;li&gt;List item 3&lt;/li&gt;\n&lt;li&gt;List item 4&lt;/li&gt;\n&lt;/ol&gt;\nNumbered Special Start\n&lt;ol start=&quot;5&quot;&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;li&gt;List item 3&lt;/li&gt;\n&lt;li&gt;List item 4&lt;/li&gt;\n&lt;/ol&gt;\nLowercase Letters\n&lt;ol type=&quot;a&quot;&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;li&gt;List item 3&lt;/li&gt;\n&lt;li&gt;List item 4&lt;/li&gt;\n&lt;/ol&gt;\nCapital Letters\n&lt;ol type=&quot;A&quot;&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;li&gt;List item 3&lt;/li&gt;\n&lt;li&gt;List item 4&lt;/li&gt;\n&lt;/ol&gt;\nCapital Letters Special Start\n&lt;ol type=&quot;A&quot; start=&quot;3&quot;&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;li&gt;List item 3&lt;/li&gt;\n&lt;li&gt;List item 4&lt;/li&gt;\n&lt;/ol&gt;\nLowercase Roman Numerals\n&lt;ol type=&quot;i&quot;&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;li&gt;List item 3&lt;/li&gt;\n&lt;li&gt;List item 4&lt;/li&gt;\n&lt;/ol&gt;",
+            "browserView": "<a href=\"tags/oderlist.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "p",
+            "description": "paragraph",
+            "exampleCode": "&lt;p&gt;This is a paragraph.&lt;/p&gt;",
+            "browserView": "<a href=\"tags/para.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+    
+        {
+            "tag": "select",
+            "description": "select",
+            "exampleCode": "&lt;select&gt;\n&lt;option&gt;Option 1&lt;/option&gt;\n&lt;option&gt;Option 2&lt;/option&gt;\n&lt;/select&gt;",
+            "browserView": "<a href=\"tags/select.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "span",
+            "description": "span",
+            "exampleCode": "&lt;span&gt;This is a span element.&lt;/span&gt;",
+            "browserView": "<a href=\"tags/span.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "strong",
+            "description": "strong",
+            "exampleCode": "&lt;strong&gt;This text is strong.&lt;/strong&gt;",
+            "browserView": "<a href=\"tags/strong.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "style",
+            "description": "style",
+            "exampleCode": "&lt;style&gt;\nbody { background-color: lightblue; }\n&lt;/style&gt;",
+            "browserView": "<a href=\"tags/style.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+   
+        {
+            "tag": "table",
+            "description": "table",
+            "exampleCode": "&lt;table&gt;\n&lt;tr&gt;\n&lt;td&gt;Cell 1&lt;/td&gt;\n&lt;td&gt;Cell 2&lt;/td&gt;\n&lt;/tr&gt;\n&lt;/table&gt;",
+            "browserView": "<a href=\"tags/table.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "title",
+            "description": "title of the document",
+            "exampleCode": "&lt;title&gt;Document Title&lt;/title&gt;",
+            "browserView": "<a href=\"tags/title.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "tr",
+            "description": "table row",
+            "exampleCode": "&lt;tr&gt;\n&lt;td&gt;Row 1, Cell 1&lt;/td&gt;\n&lt;td&gt;Row 1, Cell 2&lt;/td&gt;\n&lt;/tr&gt;",
+            "browserView": "<a href=\"tags/tr.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "ul",
+            "description": "unordered list",
+            "exampleCode": "&lt;ul&gt;\n&lt;li&gt;List item 1&lt;/li&gt;\n&lt;li&gt;List item 2&lt;/li&gt;\n&lt;/ul&gt;",
+            "browserView": "<a href=\"tags/unorderedlist.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "var",
+            "description": "variable",
+            "exampleCode": "&lt;var&gt;Variable Name&lt;/var&gt;",
+            "browserView": "<a href=\"tags/variable.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "wbr",
+            "description": "word break opportunity",
+            "exampleCode": "&lt;wbr&gt;",
+            "browserView": "<a href=\"tags/wbr.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+        {
+            "tag": "xmp",
+            "description": "executable markup protocol",
+            "exampleCode": "&lt;xmp&gt;\nThis is an example of XMP.\n&lt;/xmp&gt;",
+           "browserView": "<a href=\"tags/xmp.html\" target=\"_blank\">Visit Our Site</a>"
+        },
+         
+        {
+            "tag": "u",
+            "description": "underline",
+            "exampleCode": "<u>Example</u>",
+            "browserView": "<a href=\"tags/underline.html\" target=\"_blank\">Visit Our Site</a>"
+        }
+    ]
+}
